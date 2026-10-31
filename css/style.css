@@ -88,6 +88,17 @@ cursor: pointer;
     transform: none;
 }
 @media (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        padding: 16px;
+    }
+    .choice-prefix {
+        min-width: 48px;
+        text-align: center;
+    
+    }
     h1 {
         font-size: 4rem;
         margin-bottom: 3rem;
